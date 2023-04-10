@@ -7,7 +7,7 @@ pipeline {
 	SERVICE_NAME="demo-svc"
 	TASK_DEFINITION_NAME="demo-task"
 	DESIRED_COUNT="2"
-        IMAGE_REPO_NAME=""
+        IMAGE_REPO_NAME="369126366918.dkr.ecr.us-east-1.amazonaws.com/demo-nodejs-app"
         IMAGE_TAG="${env.BUILD_ID}"
         REPOSITORY_URI = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com/${IMAGE_REPO_NAME}"
 	registryCredential = "demo-admin-user"
