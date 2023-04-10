@@ -6,7 +6,7 @@ pipeline {
 	CLUSTER_NAME="demo-clus"
 	SERVICE_NAME="demo-srv"
 	TASK_DEFINITION_NAME="demo-nodejs-task"
-	DESIRED_COUNT="3"
+	DESIRED_COUNT="10"
 
         IMAGE_REPO_NAME="369126366918.dkr.ecr.us-east-1.amazonaws.com/demo-nodejs-app"
         IMAGE_TAG="${env.BUILD_ID}"
