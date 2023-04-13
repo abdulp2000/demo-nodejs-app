@@ -4,7 +4,7 @@ pipeline {
         AWS_ACCOUNT_ID="369126366918"
         AWS_DEFAULT_REGION="us-east-1" 
 	CLUSTER_NAME="demo-clus"
-	SERVICE_NAME="demo-srv"
+	SERVICE_NAME="demo-svc"
 	TASK_DEFINITION_NAME="demo-nodejs-task"
 	DESIRED_COUNT="10"
 
